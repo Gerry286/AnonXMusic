@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5322882174))
+OWNER_ID = int(getenv("OWNER_ID", 6473663036))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Entertainment_AG")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/the_Reaperss")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Anime_Wallpapers_Photos")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/RDJ_ANIME_GROUP")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/4607bda35c9f033e0648c.jpg"
+    "START_IMG_URL", "https://graph.org/file/66fdc46ae4619b9783338.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/306b51871133e9f382605.jpg"
+    "PING_IMG_URL", "https://graph.org/file/1b671d8b10fe94ef0476e.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/fb5d4b5991e06cb5c6abc.jpg"
-STATS_IMG_URL = "https://graph.org/file/4607bda35c9f033e0648c.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/4607bda35c9f033e0648c.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/4607bda35c9f033e0648c.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/bcdf623ab4d0885647b72.jpg"
+STATS_IMG_URL = "https://graph.org/file/7f47d7707bf86bbd553ec.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/39104e3e60546f1000692.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/358e595b4eabb2939cd00.jpg"
 STREAM_IMG_URL = "https://graph.org/file/4607bda35c9f033e0648c.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/18e55ddf319a3f18ac6cb.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/18e55ddf319a3f18ac6cb.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/306b51871133e9f382605.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/306b51871133e9f382605.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/4607bda35c9f033e0648c.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/dfafa4635fbbba7910ded.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/cf2683002284f41e8f5a0.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/cf2683002284f41e8f5a0.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/1b671d8b10fe94ef0476e.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/1b671d8b10fe94ef0476e.jpg"
 
 
 def time_to_seconds(time):
